@@ -1,9 +1,19 @@
 import './App.css';
+
 function App() {
+  var name = 'Kaynat'
+
+  
+
+  
+
   return (
-    <div className="App">
-      <h1 className="hello">Hello from BridgeLabz</h1>
+    <div>
+    {/* <p>Hello from BridgeLabz </p> */}
+    <h1> Hello {name}, from Bridgelabz</h1>
+
     </div>
   );
 }
+
 export default App;
